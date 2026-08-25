@@ -1,0 +1,17 @@
+{
+  "name": "施設警備2級 超問題集",
+  "short_name": "施設警備2級",
+  "description": "施設警備業務検定2級の大容量学科対策アプリ",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#071018",
+  "theme_color": "#071018",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "./icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "./icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
