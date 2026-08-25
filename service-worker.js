@@ -1,14 +1,14 @@
-const CACHE_NAME = "facility-security-2-github-v1";
+const CACHE_NAME = "facility-security-2-github-flat-v2";
 const BASE_URL = new URL("./", self.location.href);
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./assets/app.css",
-  "./assets/app.js",
+  "./app.css",
+  "./app.js",
   "./manifest.json",
-  "./icons/icon-180.png",
-  "./icons/icon-192.png",
-  "./icons/icon-512.png"
+  "./icon-180.png",
+  "./icon-192.png",
+  "./icon-512.png"
 ].map((path) => new URL(path, BASE_URL).href);
 
 self.addEventListener("install", (event) => {
