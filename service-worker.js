@@ -1,4 +1,4 @@
-const CACHE_NAME = "facility-security-2-special-course-v3";
+const CACHE_NAME = "facility-security-2-special-course-v4";
 const BASE_URL = new URL("./", self.location.href);
 const APP_SHELL = [
   "./",
